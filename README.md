@@ -25,14 +25,22 @@ cloudflare : 1
 This application works on Cloudlare Workers. Values of Karma are stored in Cloudflare Workers KV.
 You can deploy your own Cloudflare Workers project.
 
-## Getting Started
-
-### Requirements
+## Requirements
 
 * Node.js
 * wrangler <https://github.com/cloudflare/wrangler>
 
-### Deployment
+## Deployment
+
+### With Deploy button
+
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/yusukebe/karma-bot)
+
+Set environment variables on Cloudflare Workers web page.
+
+![Cloudflare screenshot](docs/cloudflare-001.png)
+
+### With wrangler
 
 Git clone. Copy wrangler setting file.
 
