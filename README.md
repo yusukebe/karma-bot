@@ -84,7 +84,7 @@ If you want to use `/karma` command for everyone on yor Slack channel, set `RESP
 Edit `wrangler.toml`.
 
 ```
-RESPONSE_TYPE = 'IN_CHANNEL'
+RESPONSE_TYPE = 'in_channel'
 ```
 
 

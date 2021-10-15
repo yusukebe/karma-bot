@@ -18,7 +18,7 @@ format = "service-worker"
 
 [vars]
 RESPONSE_TYPE = ''
-# RESPONSE_TYPE = 'IN_CHANNEL'
+# RESPONSE_TYPE = 'in_channel'
 
 [secret]
 # SLACK_TOKEN
