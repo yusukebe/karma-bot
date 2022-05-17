@@ -1,24 +1,11 @@
-account_id = ""
-compatibility_date = "2021-10-14"
+compatibility_date = "2022-05-17"
 name = "karma-bot"
-route = ""
-type = "javascript"
 workers_dev = true
-zone_id = ""
 
 kv_namespaces = [
   {binding = "KV_KARMA", id = "", preview_id = ""},
 ]
 
-[build]
-command = "npm run build"
-
-[build.upload]
-format = "service-worker"
-
 [vars]
 RESPONSE_TYPE = ''
 # RESPONSE_TYPE = 'in_channel'
-
-[secret]
-# SLACK_TOKEN
